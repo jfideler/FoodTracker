@@ -36,6 +36,7 @@
 		5FB6657C20843A8C00C38610 /* FoodTrackerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FoodTrackerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5FB6658020843A8C00C38610 /* FoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
 		5FB6658220843A8C00C38610 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5FB6658C20843F8E00C38610 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +141,10 @@
 		5FB6656020843A8C00C38610 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					HotDay,
+					JessSez,
+				);
 				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Fideler, Jeff";
@@ -227,6 +232,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				5FB6657020843A8C00C38610 /* Base */,
+				5FB6658C20843F8E00C38610 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
